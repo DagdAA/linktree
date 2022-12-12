@@ -27,7 +27,7 @@
 	margin: 50px auto;
 }
 
-#txt{
+#txt, #txt1{
 	margin-top: -28px;
 	margin-bottom: 24px;
 	width: 45%;
@@ -77,14 +77,6 @@
 }
 
 
-/*IMG LOGOS*/
-.container img{
-	position: absolute;
-	padding: 0;
-	margin: 0 80px 0 80px;
-	width: 20px; height: 20px;
-	border: solid;
-}
 
 
 /*CREADOR*/
@@ -97,4 +89,31 @@ footer a{
 footer{
 	margin-top: 50px;
 	margin-bottom: 50px;
+}
+
+
+/*RESPONSIVE*/
+@media screen and (max-width:1080px) and (min-width: 721px)
+{
+	.container{
+		width: 90%;
+		max-width: ;
+	}
+	#logos{
+	width: 61%; height: 55px;
+	}
+	#logos img{
+		padding-left: 30%;
+	}
+}
+
+@media screen and (max-width:720px) and (min-width: 250px)
+{
+	.container{
+		min-width: 100%;
+	}
+	#logos{
+	width: 61%; height: 55px;
+	
+	}
 }
