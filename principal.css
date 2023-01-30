@@ -1,0 +1,165 @@
+*{
+	margin: 0 auto; padding: 0;
+	box-sizing: border-box;
+
+
+}
+body{
+	text-align: center;
+	background: #EDF5F3 ;
+}
+
+#cabecera{
+	background: #454EFF ;
+	padding-top: 20px;
+	padding-bottom: 5px;
+	text-align: center;
+	letter-spacing: 10px;
+	border-bottom: 1px solid #000000;
+	color: #ffffff;
+}
+#cabecera p{
+	
+}
+
+#menu{
+	padding: 5px;
+	margin-bottom: 50px;
+	width: 100%;
+	background: #E7E7E7;
+	column-count: 5;
+}
+#menu a{
+	text-decoration: none;
+	color: #000000 ;
+	opacity: .7;
+}
+#menu a:hover{
+	transition: .5s all;
+	opacity: 1;
+}
+#menu ol{
+	list-style: none;
+}
+#menu li{
+	
+}
+
+
+
+/*texto de blog*/
+#texto{
+	border-radius: 10px;
+	padding-bottom: 30px;
+	padding-top: 30px;
+	font-size: 20px;
+	letter-spacing: 2px;
+	width: 90%;
+	text-align: center;
+	background: #FEFAFA ;
+}
+#resumen{
+	width: 95%;
+	text-align: justify;
+}
+
+
+
+#subtitulos{
+	text-align: left;
+	width: 50%;
+	margin-top: 50px;
+	margin-left: 5%;
+	font-size: 18px;
+	letter-spacing: 5px;
+}
+
+#container{
+	column-count: 1;
+}
+#contenido{
+	margin-top: 10px;
+	width: 90%;
+	text-align: justify;
+}
+
+#imagenes{
+	margin-top: 20px;
+	
+	width: 90%; height: 150px;
+}
+
+#link{
+	text-decoration: none;
+	color: #000000;
+}
+#link:hover{
+	transition: .8s all;
+	color: #7CE3FC;
+}
+
+
+
+
+/*footer*/
+footer{
+	padding-top: 50px;
+	column-count: 3;
+	width: 100%;
+	height: 250px;
+	background: #212121;/*#ffffffCC*/
+}
+footer a{
+
+	text-decoration: none;
+	color: white;
+}
+footer a:hover{
+	transition: .5s all;
+	color: #A6EEE0  ;
+}
+footer ol{
+
+	list-style: none;
+}
+footer li{
+	margin: auto;
+	
+}
+
+#copi{
+	color: #ffffff;
+padding: 10px;
+	margin-top: 50px;
+	top: 100%;
+	background: #000000;
+}
+#redes{
+	text-align: left;
+	width: 50%;
+	height: auto;
+	column-count: 1;
+
+}
+#redes li{
+	padding-top: 15px;
+}
+
+#sobreMi{
+text-align: left;
+	width: 50%;
+	
+	column-count: 1;
+}
+#sobreMi li{
+	padding-top: 15px;
+}
+
+#OtrasCosas{
+text-align: left;
+	width: 50%;
+}
+
+#OtrasCosas li{
+	padding-top: 15px;
+}
