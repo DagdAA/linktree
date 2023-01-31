@@ -13,7 +13,31 @@
 	
 
 	
-
+<div id="barracookies">
+<h5>Uso cookies para darte un mejor servicio.</h5>
+Mi sitio web utiliza cookies para mejorar tu experiencia. <a href="javascript:void(0);" onclick="var expiration = new Date(); expiration.setTime(expiration.getTime() + (60000*60*24*365)); setCookie('avisocookies','1',expiration,'/');document.getElementById('barracookies').style.display='none';"><b>Acepto</b></a> <a href="URL-COOKIES" target="_blank" >Leer más</a>
+</div>
+<!-- Estilo barra CSS -->
+<style>
+#barracookies {display: none;z-index: 99999;position:fixed;left:0px;right:0px;bottom:0px;width:100%;min-height:40px;padding:5px;background: #333333;color:#fff;line-height:20px;font-family:verdana;font-size:12px;text-align:center;box-sizing:border-box;}
+#barracookies a:nth-child(2) {display: inline-block; color: rgb(10, 10, 10);
+background-color: rgb(244, 157, 7); padding: 6.5px;text-decoration: none;}
+#barracookies a {color: #fff;text-decoration: underline;}
+#barracookies h5{font-size: 15px; margin: 10px 0px;}
+#barracookies 
+</style>
+<!-- Gestión de cookies-->
+<script type='text/javascript'>function setCookie(name,value,expires,path,domain,secure){document.cookie=name+"="+escape(value)+((expires==null)?"":"; expires="+expires.toGMTString())+((path==null)?"":"; path="+path)+((domain==null)?"":"; domain="+domain)+((secure==null)?"":"; secure")}function getCookie(name){var cname=name+"=";var dc=document.cookie;if(dc.length>0){begin=dc.indexOf(cname);if(begin!=-1){begin+=cname.length;end=dc.indexOf(";",begin);if(end==-1)end=dc.length;return unescape(dc.substring(begin,end))}}return null}function delCookie(name,path,domain){if(getCookie(name)){document.cookie=name+"="+((path==null)?"":"; path="+path)+((domain==null)?"":"; domain="+domain)+"; expires=Thu, 01-Jan-70 00:00:01 GMT"}}</script>
+<!-- Gestión barra aviso cookies -->
+<script type='text/javascript'>
+var comprobar = getCookie("avisocookies");
+if (comprobar != null) {}
+else {
+var expiration = new Date();
+expiration.setTime(expiration.getTime() + (60000*60*24*365));
+setCookie("avisocookies","1",expiration);
+document.getElementById("barracookies").style.display="block"; }
+</script>
 	
 
 	
