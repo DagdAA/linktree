@@ -128,7 +128,9 @@ h3{
 }
 
 #lista{
-	width: 70%;
+	font-size: 25px;
+	margin-top: 50px;
+	width: 90%;
 }
 
 #lista a{
@@ -152,6 +154,10 @@ h3{
 	border-radius: 10px;
 }
 
+#subtitulos2{
+
+
+}
 
 /*footer*/
 footer{
