@@ -1,0 +1,312 @@
+*{
+	margin: 0 auto; padding: 0;
+	box-sizing: border-box;
+
+
+}
+body{
+	text-align: center;
+	background: #EDF5F3 ;
+}
+
+#cabecera{
+	background: #454EFF ;
+	padding-top: 20px;
+	padding-bottom: 5px;
+	text-align: center;
+	letter-spacing: 10px;
+	border-bottom: 1px solid #000000;
+	color: #ffffff;
+}
+#cabecera p{
+	
+}
+
+#menu{
+	padding: 5px;
+	margin-bottom: 50px;
+	width: 100%;
+	background: #E7E7E7;
+	column-count: 5;
+}
+#menu a{
+	text-decoration: none;
+	color: #000000 ;
+	opacity: .7;
+}
+#menu a:hover{
+	transition: .5s all;
+	opacity: 1;
+}
+#menu ol{
+	list-style: none;
+}
+#menu li{
+	
+}
+
+
+#juntar{
+	letter-spacing: 13px;
+	width: 100px; height: 100px;
+	background: red;
+	visibility: hidden;
+	position: absolute;
+	margin-bottom: 10px;
+	margin-left: 300px;
+}
+
+
+/*texto de blog*/
+#texto{
+	border-radius: 10px;
+	padding-bottom: 30px;
+	padding-top: 30px;
+	font-size: 20px;
+	letter-spacing: 2px;
+	width: 90%;
+	text-align: center;
+	background: #FEFAFA ;
+}
+#resumen{
+	width: 95%;
+	text-align: justify;
+}
+
+
+
+#subtitulos{
+	text-align: left;
+	width: 50%;
+	margin-top: 50px;
+	margin-left: 5%;
+	font-size: 18px;
+	letter-spacing: 5px;
+}
+
+
+#container{
+	padding: 15px;
+	margin: auto;
+	column-count: 3;
+	display: inline-block;
+	width: 80%;
+	height: auto;
+	border-radius: 10px;
+	background: #C5D8E5 ;
+}
+#container img{
+	border-radius: 8px;
+	margin:auto;
+	width: 290px; height: 350px;
+}
+
+#container img:hover{
+	transition: .8s all;
+	opacity: .5;
+	box-shadow: inset 0 -3em 3em rgba(0,0,0,0.1),
+             0 0  0 2px rgb(255,255,255),
+             0.3em 0.3em 1em rgba(0,0,0,0.3);
+}
+#cc{
+	width: 300px; height: 380px;
+}
+#container div img{
+	object-fit: cover;
+}
+
+
+#Cp{
+background: rgba(0, 0, 0, 0.5);
+height: 200px;
+	border-radius: 10px;
+	color: white;
+	margin-top: -90%;
+	position: relative;
+	text-align: center;
+	width: 90%;
+}
+#Cp > h3{
+	padding: 10px;
+	color: yellow;
+	}
+
+
+
+/*footer*/
+footer{
+	padding-top: 50px;
+	column-count: 3;
+	width: 100%;
+	height: 250px;
+	background: #212121;/*#ffffffCC*/
+}
+footer a{
+
+	text-decoration: none;
+	color: white;
+}
+footer a:hover{
+	transition: .5s all;
+	color: #A6EEE0  ;
+}
+footer ol{
+
+	list-style: none;
+}
+footer li{
+	margin: auto;
+	
+}
+
+#copi{
+	color: #ffffff;
+padding: 10px;
+	margin-top: 50px;
+	top: 100%;
+	background: #000000;
+}
+#redes{
+	text-align: left;
+	width: 50%;
+	height: auto;
+	column-count: 1;
+
+}
+#redes li{
+	padding-top: 15px;
+}
+
+#sobreMi{
+text-align: left;
+	width: 50%;
+	
+	column-count: 1;
+}
+#sobreMi li{
+	padding-top: 15px;
+}
+
+#OtrasCosas{
+text-align: left;
+	width: 50%;
+}
+
+#OtrasCosas li{
+	padding-top: 15px;
+}
+
+
+
+/*PARA CELULAR*/
+@media screen and (max-width:886px) and (min-width:672px){/*MEDIANO*/
+
+#menu ol{
+	font-size: 15px;
+}
+
+#cc img{
+	margin-top: 30px;
+	margin-left: -80px;
+	width: 200px; height: 250px;
+}
+#Cp{
+	margin-left: 30px;
+	margin-top: -70%;
+	width: 50%;
+	font-size: 15px;
+}
+
+}
+
+@media screen and (max-width:660px) and (min-width:375px){/*PEQUEÑO*/
+
+	#cabecera {
+		margin-bottom: 20px;
+	}
+
+#juntar{
+	border-radius: 50% 0 0 50%;
+	background-color: #E7E7E7 ;
+	margin-left: 97%;
+	margin-top: -10px;
+	transition: .2s all;
+	visibility: visible;
+	opacity: 1;
+	position: relative;
+	width: 16px; height: 25px;
+}
+
+#texto{
+	margin-top: 30px;
+}
+	#menu {
+		visibility: hidden;
+		position: absolute;
+		margin-top: -80px;
+		font-size: 25px;
+		column-count: 1;
+	}
+	#menu:hover{
+		margin-top: -75px;
+		visibility: visible;
+		height: 250px;
+	}
+	#menu p{
+		margin-bottom: 5px;
+	}
+	#menu ol{
+			margin-top: 0px;
+			}
+	#menu li{
+		margin-top: 10px;
+	}
+	
+footer{
+	height: 320px;
+	padding-top: -10px;
+}
+
+footer div{
+	column-count: 1;
+	margin-bottom: 50px;
+	width: 100%;
+	overflow: visible;
+	font-size: 17px;
+}
+#copi{
+	
+}
+#redes ol{
+	margin-top: -15px;
+	height: 250px;
+	
+}
+#sobreMi ol{
+	margin-top: -15px;
+	height: 250px;
+}
+#OtrasCosas ol{
+	
+	margin-top: -10px;
+height: 250px;
+}
+
+
+
+#container{
+	column-count: 1;
+}
+#cc img{
+
+	margin-top: 30px;
+	margin-left: -18px;
+	width: 250px; height: 320px;
+}
+#Cp{
+	margin-left: 30px;
+	margin-top: -80%;
+	width: 75%;
+	font-size: 18px;
+}
+}
