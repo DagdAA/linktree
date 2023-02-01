@@ -77,10 +77,11 @@ h3{
 	background: #FEFAFA ;
 }
 #resumen{
+	letter-spacing: normal;
 	line-height: 1.6;
-	font-size: 15px;
+	font-size: 22px;
 	font-style: normal;
-    font-family: gdsherpa, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-family: serif;
 	width: 90%;
 	text-align: left;
 }
@@ -95,7 +96,7 @@ h3{
 	width: 90%;
 	margin-top: 50px;
 	margin-left: 5%;
-	font-size: 20px;
+	font-size: 26px;
 	letter-spacing: 5px;
 }
 
@@ -103,9 +104,10 @@ h3{
 	column-count: 1;
 }
 #contenido{
-
+	letter-spacing: normal;
+	font-size: 22px;
 	font-style: normal;
-    font-family: gdsherpa, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-family: serif;
 	margin-top: 10px;
 	width: 90%;
 	text-align: left;
