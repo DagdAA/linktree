@@ -272,6 +272,25 @@ text-align: left;
 	#menu li{
 		margin-top: 10px;
 	}
+	#container{
+		margin-left: 1%;
+	}
+
+	#cc{
+		margin-left: 10%;
+		width: 85%;
+	}
+
+	#cc div{
+		margin-top: -300px;
+	}
+#cc img{
+border: solid;
+color: #000000;
+min-width: 100%;
+min-height: 95%;
+}
+
 	
 footer{
 	height: 320px;
